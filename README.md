@@ -194,7 +194,7 @@ package main
 import (
     "fmt"
 
-    "github.com/xelaj/mtproto/telegram/deeplinks"
+    "github.com/chickenfresh/mtproto/telegram/deeplinks"
 )
 
 func main() {

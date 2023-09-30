@@ -15,11 +15,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/xelaj/mtproto/internal/aes_ige"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/keys"
-	"github.com/xelaj/mtproto/internal/math"
-	"github.com/xelaj/mtproto/internal/mtproto/objects"
+	ige "github.com/chickenfresh/mtproto/internal/aes_ige"
+	"github.com/chickenfresh/mtproto/internal/encoding/tl"
+	"github.com/chickenfresh/mtproto/internal/keys"
+	"github.com/chickenfresh/mtproto/internal/math"
+	"github.com/chickenfresh/mtproto/internal/mtproto/objects"
 )
 
 // https://tlgrm.ru/docs/mtproto/auth_key

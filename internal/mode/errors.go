@@ -3,8 +3,8 @@ package mode
 import (
 	"fmt"
 
+	"github.com/chickenfresh/mtproto/internal/encoding/tl"
 	"github.com/pkg/errors"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
 )
 
 var (

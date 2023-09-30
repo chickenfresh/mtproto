@@ -8,10 +8,10 @@ import (
 
 	"github.com/xelaj/go-dry"
 
+	"github.com/chickenfresh/mtproto/telegram"
 	"github.com/k0kubun/pp"
-	"github.com/xelaj/mtproto/telegram"
 
-	utils "github.com/xelaj/mtproto/examples/example_utils"
+	utils "github.com/chickenfresh/mtproto/examples/example_utils"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/gen"
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/chickenfresh/mtproto/internal/cmd/tlgen/gen"
+	"github.com/chickenfresh/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 const helpMsg = `tlgen

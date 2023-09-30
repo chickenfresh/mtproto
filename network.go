@@ -12,10 +12,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/errs"
 
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/mtproto/messages"
-	"github.com/xelaj/mtproto/internal/mtproto/objects"
-	"github.com/xelaj/mtproto/internal/utils"
+	"github.com/chickenfresh/mtproto/internal/encoding/tl"
+	"github.com/chickenfresh/mtproto/internal/mtproto/messages"
+	"github.com/chickenfresh/mtproto/internal/mtproto/objects"
+	"github.com/chickenfresh/mtproto/internal/utils"
 )
 
 func (m *MTProto) sendPacket(request tl.Object, expectedTypes ...reflect.Type) (chan tl.Object, error) {

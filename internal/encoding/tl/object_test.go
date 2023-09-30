@@ -8,8 +8,8 @@ package tl_test
 import (
 	"testing"
 
+	"github.com/chickenfresh/mtproto/internal/encoding/tl"
 	"github.com/stretchr/testify/assert"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
 )
 
 func TestUnwrapNativeTypes(t *testing.T) {

@@ -15,8 +15,8 @@ import (
 	"github.com/xelaj/errs"
 	dry "github.com/xelaj/go-dry"
 
-	"github.com/xelaj/mtproto"
-	"github.com/xelaj/mtproto/internal/keys"
+	"github.com/chickenfresh/mtproto"
+	"github.com/chickenfresh/mtproto/internal/keys"
 )
 
 type Client struct {

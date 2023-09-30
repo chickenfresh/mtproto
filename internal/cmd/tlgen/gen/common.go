@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/dave/jennifer/jen"
-	
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+
+	"github.com/chickenfresh/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 func (g *Generator) generateMethodCallerFunc(method tlparser.Method) *jen.Statement {

@@ -8,10 +8,10 @@ package mtproto
 import (
 	"reflect"
 
+	"github.com/chickenfresh/mtproto/internal/encoding/tl"
+	"github.com/chickenfresh/mtproto/internal/session"
+	"github.com/chickenfresh/mtproto/internal/utils"
 	"github.com/pkg/errors"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/session"
-	"github.com/xelaj/mtproto/internal/utils"
 )
 
 // helper methods
